@@ -47,51 +47,70 @@
 
 		}
 
-		@media only screen and (max-width: 480px) {
-			.mobwidth {
+			.email-container {
+				width: 600px;
+				max-width: 600px;
+				margin: 0 auto;
+			}
+
+			.fluid-image {
 				width: 100% !important;
-			}
-
-			table {
-				width: 100% !important;
-			}
-
-			.responsive {
-				display: block !important;
-				overflow-x: hidden !important;
-				width: 100% !important;
-			}
-
-			.rounded-mob {
-				border-radius: 0px 0px 9px 9px !important;
-			}
-
-			.responsive-image img {
-				height: auto !important;
 				max-width: 100% !important;
-				width: 100% !important;
+				height: auto !important;
+				display: block !important;
 			}
 
-			.btn-table {
-				width: auto !important;
-			}
+			@media only screen and (max-width: 480px) {
+				.email-container {
+					width: 100% !important;
+					max-width: 100% !important;
+				}
 
-			body, table, td, p, a, li, blockquote {
-				-webkit-text-size-adjust: none !important;
-				padding: 0px;
-				margin: 0px;
-			}
+				.mobwidth {
+					width: 100% !important;
+					max-width: 100% !important;
+				}
 
-			.mob-header {
-				font-size: 32px !important;
-				line-height: 40px !important;
-			}
+				.content-table {
+					width: 100% !important;
+				}
 
-			.s-header {
-				font-size: 18px !important;
-				line-height: 24px !important;
+				.responsive {
+					display: block !important;
+					overflow-x: hidden !important;
+					width: 100% !important;
+				}
+
+				.rounded-mob {
+					border-radius: 0px 0px 9px 9px !important;
+				}
+
+				.responsive-image img, .fluid-image {
+					height: auto !important;
+					max-width: 100% !important;
+					width: 100% !important;
+				}
+
+				.btn-table, .cta-table {
+					width: auto !important;
+				}
+
+				body, table, td, p, a, li, blockquote {
+					-webkit-text-size-adjust: none !important;
+					padding: 0px;
+					margin: 0px;
+				}
+
+				.mob-header {
+					font-size: 32px !important;
+					line-height: 40px !important;
+				}
+
+				.s-header {
+					font-size: 18px !important;
+					line-height: 24px !important;
+				}
 			}
-		}
 	</style>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -103,11 +122,11 @@
 		<tr>
 			<td align="center" valign="top" style="margin: 0; padding: 0;">
 				<!--[if (gte mso 9)|(IE)]>
-				<table align="center" border="0" cellspacing="0" cellpadding="0" width="320">
+				<table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
 				<tr>
-				<td align="center" valign="top" width="320">
+				<td align="center" valign="top" width="600">
 				<![endif]-->
-				<table bgcolor="#FFF" cellpadding="0" cellspacing="0" width="320" align="center" style="max-width: 320px; width: 100%; border: 1px solid #d9d9d9; border-collapse: collapse; margin: 0 auto;" class="mobwidth">
+					<table class="email-container mobwidth" bgcolor="#FFF" cellpadding="0" cellspacing="0" width="600" align="center" style="max-width: 600px; width: 100%; border: 1px solid #d9d9d9; border-collapse: collapse; margin: 0 auto;">
 		
 			<!-- LOGO BAND -->
 			<tr>
@@ -139,7 +158,7 @@
 					<tr>
 						<td align="left">
 							<!-- TEXT-BASED CTA BUTTON -->
-							<table class="btn-table" role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
+							<table class="btn-table cta-table" role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
 								<tr>
 									<td align="center" bgcolor="#E3530F" style="background:#E3530F; border-radius:40px; padding: 12px 28px; text-align: center;">
 										<a href="https://wa.me/918640086400?text=Keep%20My%20Cards%20Active" target="_blank" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 22px; line-height: 26px; color: #ffffff; text-decoration: none; display: inline-block; font-weight: 700; text-align: center;">Click Here</a>
@@ -155,7 +174,7 @@
 		<!-- BANNER IMAGE (Only Image Used) -->
 		<tr>
 			<td valign="top" style="padding: 0px; margin: 0px;">
-				<img src="https://ik.imagekit.io/5v1o0jcsn/banner.jpeg" alt="1838 Reserve ICICI Bank Credit Card" width="100%" style="display:block; max-width: 100%; height: auto;" border="0" />
+				<img src="https://ik.imagekit.io/5v1o0jcsn/banner.jpeg" class="fluid-image" alt="1838 Reserve ICICI Bank Credit Card" width="100%" style="display:block; max-width: 100%; height: auto;" border="0" />
 			</td>
 		</tr>
 
@@ -439,7 +458,7 @@
 								<p align="left" style="text-align:left; color:#525252; margin:0px 0px 20px; padding: 0px; line-height: 21px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 400;">
 									<span style="color: #E3530F; font-size: 18px; line-height: 21px; font-weight: 700;">You can explore these benefits</span><br />in detail on our website at your convenience.
 								</p>
-								<table class="btn-table" role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
+								<table class="btn-table cta-table" role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
 									<tr>
 										<td align="center" bgcolor="#E3530F" style="background:#E3530F; border-radius:40px; padding: 12px 28px; text-align: center;">
 											<a href="https://icici.co/ICICIT/k/DUvfEdu3KUe" target="_blank" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 22px; line-height: 26px; color: #ffffff; text-decoration: none; display: inline-block; font-weight: 700; text-align: center;">Visit</a>
@@ -465,7 +484,7 @@
 					<!-- SECOND CTA BUTTON -->
 					<tr>
 						<td align="left">
-							<table class="btn-table" role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
+							<table class="btn-table cta-table" role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
 								<tr>
 									<td align="center" bgcolor="#E3530F" style="background:#E3530F; border-radius:40px; padding: 12px 28px; text-align: center;">
 										<a href="https://wa.me/918640086400?text=Keep%20My%20Cards%20Active" target="_blank" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 22px; line-height: 26px; color: #ffffff; text-decoration: none; display: inline-block; font-weight: 700; text-align: center;">Click Here</a>

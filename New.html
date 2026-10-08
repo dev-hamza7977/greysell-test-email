@@ -28,24 +28,9 @@
 			padding: 0px;
 		}
 
-		.curved-shadow-box {
-			position: relative;
-			z-index: 0;
-		}
+		
 
-		.curved-shadow-box::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    bottom: 0px;
-    left: 5%;
-    width: 90%;
-    height: 30px;
-    border-radius: 100px / 10px;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3);
-    pointer-events: none;
-
-		}
+		
 
 			.email-container {
 				width: 600px;
@@ -212,15 +197,14 @@
 						<tr>
 							<!-- Added top padding so the overlapping pill doesn't hit the text above -->
 							<td align="center" style="padding: 0px;">
-								<div class="curved-shadow-box">
 									<!-- The Grey Box -->
 									<table cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #f2f2f2; border-radius: 14px;">
 									<tr>
 										<td align="center" style="padding: 0px 20px 20px;">
 											<!-- The Title Pill (Placed INSIDE the grey box with a negative top margin to overlap the edge and cast the shadow internally) -->
-											<table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top: -2px; margin-bottom: 20px;">
+											<table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-bottom: 20px;">
 												<tr>
-													<td style="background: linear-gradient(90deg, #7b160e 0%, #e1470e 100%); background-color: #97281D; padding: 7px 22px; border-radius: 6px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; color: #ffffff; line-height: 22px; text-align: center; box-shadow: 0px 4px 10px rgba(120, 25, 10, 0.4);">
+													<td style="background-color: #97281D; padding: 7px 22px; border-radius: 6px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; color: #ffffff; line-height: 22px; text-align: center;">
 														With your Card, you can enjoy:
 													</td>
 												</tr>
@@ -270,16 +254,16 @@
 													<td valign="top" style="padding-left: 5px; padding-bottom: 4px;">
 														<table cellpadding="0" cellspacing="0" border="0" width="100%">
 															<tr>
-																<td valign="top" width="14" style="width: 14px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 14px; color: #E3530F; line-height: 24px; text-align: left;">&bull;</td>
-																<td valign="top" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #525252; text-align: left; padding-bottom: 6px;">Track spends and statements</td>
+																<td valign="top" width="14" style="width: 14px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 18px; color: #E3530F; line-height: 21px; text-align: left;">&bull;</td>
+																<td valign="top" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 21px; color: #525252; text-align: left; padding-bottom: 6px;">Track spends and statements</td>
 															</tr>
 															<tr>
-																<td valign="top" width="14" style="width: 14px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 14px; color: #E3530F; line-height: 24px; text-align: left;">&bull;</td>
-																<td valign="top" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #525252; text-align: left; padding-bottom: 6px;">Control Card usage and transaction settings</td>
+																<td valign="top" width="14" style="width: 14px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 18px; color: #E3530F; line-height: 21px; text-align: left;">&bull;</td>
+																<td valign="top" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 21px; color: #525252; text-align: left; padding-bottom: 6px;">Control Card usage and transaction settings</td>
 															</tr>
 															<tr>
-																<td valign="top" width="14" style="width: 14px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 14px; color: #E3530F; line-height: 24px; text-align: left;">&bull;</td>
-																<td valign="top" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #525252; text-align: left; padding-bottom: 2px;">Manage billing cycles, AutoPay options and limits.</td>
+																<td valign="top" width="14" style="width: 14px; font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 18px; color: #E3530F; line-height: 21px; text-align: left;">&bull;</td>
+																<td valign="top" style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 21px; color: #525252; text-align: left; padding-bottom: 2px;">Manage billing cycles, AutoPay options and limits.</td>
 															</tr>
 														</table>
 													</td>
@@ -288,7 +272,6 @@
 										</td>
 									</tr>
 									</table>
-								</div>
 							</td>
 						</tr>
 
@@ -322,7 +305,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td bgcolor="#ffffff" style="background-color: #ffffff; border: 1px solid #eeeeee; border-top: none; border-radius: 8px; padding: 18px 16px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+									<td bgcolor="#ffffff" style="background-color: #ffffff; border: 1px solid #eeeeee; border-top: none; border-radius: 8px; padding: 18px 16px 20px">
 										<table cellpadding="0" cellspacing="0" border="0" width="100%">
 											<tr>
 												<td style="font-family: 'Mulish', Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 700; color: #E3530F; text-align: center; padding-bottom: 16px;">
@@ -380,7 +363,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td bgcolor="#ffffff" style="background-color: #ffffff; border: 1px solid #eeeeee; border-top: none; border-radius:8px; padding: 18px 16px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+									<td bgcolor="#ffffff" style="background-color: #ffffff; border: 1px solid #eeeeee; border-top: none; border-radius:8px; padding: 18px 16px 20px">
 										<table cellpadding="0" cellspacing="0" border="0" width="100%">
 											<!-- iMobile app -->
 											<tr>
@@ -467,9 +450,6 @@
 								</table>
 							</td>
 						</tr>
-							</table>
-						</td>
-					</tr>
 
 						<tr><td height="20" style="height: 20px; font-size: 0; line-height: 0;">&nbsp;</td></tr>
 
